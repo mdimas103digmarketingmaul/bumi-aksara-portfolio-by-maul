@@ -3,10 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Pertama Saya</title>
+  <title>Bumi Aksara — Portfolio</title>
 </head>
 <body>
-  <h1>Hello World</h1>
-  <p>This is Maul</p>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">Bumi Aksara</a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Halo, saya Bumi Aksara.</h1>
+        <p>Saya membangun project, menjalankan usaha, dan membantu berbagai kebutuhan secara freelance.</p>
+        <a class="button" href="#projects">Lihat project</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <p class="eyebrow">About</p>
+        <h2>Tentang saya</h2>
+        <p>Saya memiliki latar belakang ekonomi dan pengalaman mengembangkan project, usaha, serta pekerjaan freelance.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <p class="eyebrow">Services</p>
+        <h2>Yang bisa saya bantu</h2>
+        <div class="card-grid">
+          <article class="card"><h3>Project Support</h3><p>Membantu project dari perencanaan hingga eksekusi.</p></article>
+          <article class="card"><h3>Freelance</h3><p>Mengerjakan kebutuhan sesuai scope dan tujuan project.</p></article>
+          <article class="card"><h3>Small Business</h3><p>Mengembangkan ide dan aktivitas bisnis secara bertahap.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <p class="eyebrow">Projects</p>
+        <h2>Project pilihan</h2>
+        <div class="card-grid">
+          <article class="card"><h3>Project 01</h3><p>Ceritakan project dan kontribusi kamu di sini.</p></article>
+          <article class="card"><h3>Project 02</h3><p>Ceritakan project dan hasil yang ingin ditampilkan.</p></article>
+          <article class="card"><h3>Project 03</h3><p>Tambahkan project lain yang relevan dengan profil kamu.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h2>Mari terhubung</h2>
+        <p>Tambahkan email, LinkedIn, Instagram, atau kanal kontak yang ingin kamu tampilkan.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Bumi Aksara</div>
+  </footer>
 </body>
 </html>
